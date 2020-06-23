@@ -1,0 +1,245 @@
+{
+  "status": "ok",
+  "totalResults": 70,
+  "articles": [{
+    "source": {
+      "id": null,
+      "name": "CNBC"
+    },
+    "author": "Reuters",
+    "title": "American Airlines seeks $3.5 billion in new financing - CNBC",
+    "description": "The company expects to use the net proceeds from the stock and convertible notes offerings for general corporate purposes and to enhance its liquidity position, the airline said.",
+    "url": "https://www.cnbc.com/2020/06/22/american-airlines-seeks-new-financing.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/106575679-1591971797253gettyimages-1218845660.jpeg?v=1592784313",
+    "publishedAt": "2020-06-22T00:03:00Z",
+    "content": "American Airlines said on Sunday it plans to secure $3.5 billion in new financing, to improve the airline's liquidity as it grapples with travel restrictions caused by the coronavirus.\r\n The company … [+1094 chars]"
+  }, {
+    "source": {
+      "id": null,
+      "name": "MarketWatch"
+    },
+    "author": "Shawn Langlois",
+    "title": "The risk-reward in the stock market isn’t looking good, warns fund manger overseeing $16 billion in assets - MarketWatch",
+    "description": "",
+    "url": "https://www.marketwatch.com/story/the-risk-reward-in-the-stock-market-isnt-looking-good-warns-fund-manger-overseeing-16-billion-in-assets-2020-06-21",
+    "urlToImage": "https://s.marketwatch.com/public/resources/images/MW-IC890_ambula_ZG_20200324084958.jpg",
+    "publishedAt": "2020-06-21T23:56:16Z",
+    "content": "“\r\n The stock market has already discounted a significant degree of the economic recovery. So, incrementally improving data here might not do much to lift prices. The risk-reward isnt great here.\r\n ”… [+1429 chars]"
+  }, {
+    "source": {
+      "id": "reuters",
+      "name": "Reuters"
+    },
+    "author": "Hideyuki Sano",
+    "title": "U.S. stock futures fall as infections spike hits confidence - Reuters",
+    "description": "U.S. stock futures dropped in early Asian trade on Monday as rising coronavirus cases in the United States raised more doubts about a quick economic rebound from the massive downturn triggered by the pandemic.",
+    "url": "https://www.reuters.com/article/us-global-markets-idUSKBN23S0X9",
+    "urlToImage": "https://s2.reutersmedia.net/resources/r/?m=02&d=20200621&t=2&i=1523009431&w=1200&r=LYNXMPEG5K0QG",
+    "publishedAt": "2020-06-21T23:51:00Z",
+    "content": "TOKYO (Reuters) - U.S. stock futures dropped in early Asian trade on Monday as rising coronavirus cases in the United States raised more doubts about a quick economic rebound from the massive downtur… [+1903 chars]"
+  }, {
+    "source": {
+      "id": null,
+      "name": "The Dallas Morning News"
+    },
+    "author": "Nataly Keomoungkhoun, LaVendrick Smith",
+    "title": "Dallas, Tarrant counties each report 400-plus new coronavirus cases as Jenkins sees 'second wave' - The Dallas Morning News",
+    "description": "Dallas County health officials reported 408 new coronavirus cases Sunday and the death of a Dallas woman in her 60s who had been critically ill in a...",
+    "url": "https://www.dallasnews.com/news/public-health/2020/06/21/dallas-tarrant-counties-each-report-400-plus-cases-as-jenkins-says-dallas-sees-second-wave/",
+    "urlToImage": "https://dmn-dallas-news-prod.cdn.arcpublishing.com/resizer/L8DDfUFoZECLmQ6hA4ytnOcmUBE=/1200x630/smart/filters:no_upscale()/cloudfront-us-east-1.images.arcpublishing.com/dmn/D3RXX2OXKKLAYFAJFX5F7ZSVZM.jpg",
+    "publishedAt": "2020-06-21T23:37:30Z",
+    "content": "Updated 4:55 p.m.: Revised to include new Collin County cases.\r\nDallas County health officials reported 408 new coronavirus cases Sunday and the death of a Dallas woman in her 60s who had been critic… [+2308 chars]"
+  }, {
+    "source": {
+      "id": "the-hill",
+      "name": "The Hill"
+    },
+    "author": "Alex Gangitano",
+    "title": "Airports beg government to set face mask policy for passengers | TheHill - The Hill",
+    "description": "Airline passengers are encountering a patchwork of rules when it ...",
+    "url": "https://thehill.com/policy/transportation/aviation/503670-airports-beg-government-to-set-face-mask-policy-for-passengers",
+    "urlToImage": "https://thehill.com/sites/default/files/coronavirus_passengers_san-diego_ca_052020getty_airlines.jpg",
+    "publishedAt": "2020-06-21T23:21:15Z",
+    "content": "Airline passengers are encountering a patchwork of rules when it comes to wearing masks on planes and in airports, creating confusion and frustration among customers and companies alike.\r\nWith no fed… [+4717 chars]"
+  }, {
+    "source": {
+      "id": null,
+      "name": "Barron's"
+    },
+    "author": "Daren Fonda",
+    "title": "Airlines Are Ditching Peanuts for Purell to Bring Customers Back - Barron's",
+    "description": "",
+    "url": "https://www.barrons.com/articles/airlines-are-ditching-peanuts-for-purell-to-bring-customers-back-51592742603",
+    "urlToImage": "https://images.barrons.com/im-200471/social",
+    "publishedAt": "2020-06-21T23:08:13Z",
+    "content": "Purell is the new peanuts as airlines try to win back consumers in the age of coronavirus.Delta Air Lines\r\n (ticker: DAL) said last week that it would hand out complimentary care kits to customers wh… [+3475 chars]"
+  }, {
+    "source": {
+      "id": null,
+      "name": "YouTube"
+    },
+    "author": null,
+    "title": "Houston bar among 12 in Texas to have permit suspended for 30 days by TABC for violating Gov.'s ... - KPRC 2 Click2Houston",
+    "description": "The Texas Alcoholic Beverage Commission (TABC) temporarily suspended the permits of 12 bars in Texas, including a popular Houston bar, as the agency continue...",
+    "url": "https://www.youtube.com/watch?v=mU5zjQ_kRO8",
+    "urlToImage": "https://i.ytimg.com/vi/mU5zjQ_kRO8/maxresdefault.jpg",
+    "publishedAt": "2020-06-21T22:44:28Z",
+    "content": null
+  }, {
+    "source": {
+      "id": null,
+      "name": "CNBC"
+    },
+    "author": "Fred Imbert",
+    "title": "Dow futures drop more than 100 points as coronavirus cases continue to climb - CNBC",
+    "description": "U.S. stock futures fell following a solid weekly performance on Wall Street amid lingering concerns about the coronavirus outbreak.",
+    "url": "https://www.cnbc.com/2020/06/21/stock-market-futures-open-to-close-news.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/106581402-1592404623524gettyimages-1219612454.jpeg?v=1592775773",
+    "publishedAt": "2020-06-21T22:40:29Z",
+    "content": "U.S. stock futures fell on Sunday night following a solid weekly performance on Wall Street amid lingering concerns about the coronavirus outbreak. \r\nDow Jones Industrial Average futures were down 12… [+2160 chars]"
+  }, {
+    "source": {
+      "id": null,
+      "name": "FOX 13 Tampa Bay"
+    },
+    "author": "Associated Press",
+    "title": "Publix recalls salad products in several states, including Florida - FOX 13 Tampa Bay",
+    "description": "One of the South's largest grocery store chains is announcing a recall of some salads sold in its stores. Publix announced that Fresh Express is voluntarily recalling a limited quantity of Fresh Express 11.5-ounce Southwest Chopped Kit.",
+    "url": "https://www.fox13news.com/news/publix-recalls-salad-products-in-several-states-including-florida",
+    "urlToImage": "https://images.foxtv.com/static.fox13news.com/www.fox13news.com/content/uploads/2020/06/1280/720/publix-salad-recall.jpg?ve=1&tl=1",
+    "publishedAt": "2020-06-21T22:39:51Z",
+    "content": "LAKELAND, Fla. - One of the South's largest grocery store chains is announcing a recall of some salads sold in its stores. Publix announced that Fresh Express is voluntarily recalling a limited quant… [+511 chars]"
+  }, {
+    "source": {
+      "id": "google-news",
+      "name": "Google News"
+    },
+    "author": null,
+    "title": "FDA Recommends Not Using These 9 Hand Sanitizers Considered Toxic - Newsweek",
+    "description": null,
+    "url": "https://news.google.com/__i/rss/rd/articles/CBMiZWh0dHBzOi8vd3d3Lm5ld3N3ZWVrLmNvbS9mZGEtcmVjb21tZW5kcy1ub3QtdXNpbmctdGhlc2UtbmluZS1oYW5kLXNhbml0aXplcnMtY29uc2lkZXJlZC10b3hpYy0xNTEyNDI30gFraHR0cHM6Ly93d3cubmV3c3dlZWsuY29tL2ZkYS1yZWNvbW1lbmRzLW5vdC11c2luZy10aGVzZS1uaW5lLWhhbmQtc2FuaXRpemVycy1jb25zaWRlcmVkLXRveGljLTE1MTI0Mjc_YW1wPTE?oc=5",
+    "urlToImage": null,
+    "publishedAt": "2020-06-21T22:12:40Z",
+    "content": null
+  }, {
+    "source": {
+      "id": "cnn",
+      "name": "CNN"
+    },
+    "author": null,
+    "title": "Watch Amazon driver deliver an unsual request - CNN",
+    "description": "Lynn Staffieri's 13-year-old son Jacob included unusual \"additional instructions\" for delivery. See how the driver handled it.",
+    "url": "https://www.cnn.com/videos/business-videos/2020/06/21/amazon-delivery-driver-completes-unusual-request-orig-kj.cnn",
+    "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/200621173503-silly-amazon-delivery-thumb-super-tease.jpg",
+    "publishedAt": "2020-06-21T22:04:36Z",
+    "content": "Chat with us in Facebook Messenger. Find out what's happening in the world as it unfolds."
+  }, {
+    "source": {
+      "id": null,
+      "name": "Electrek"
+    },
+    "author": null,
+    "title": "Tesla Model Y with 7-seat coming ‘probably early Q4’, says Elon Musk - Electrek",
+    "description": "Tesla currently produces Model Y with 5 seats, but the automaker has been promising a 7-seat configuration and Elon Musk has now updated the timeline. The fact that it supports a 7-seat configuration was probably the biggest surprise when the SUV was unveiled…",
+    "url": "https://electrek.co/2020/06/21/tesla-model-y-7-seat-coming-q4-elon-musk/",
+    "urlToImage": "https://electrek.co/wp-content/uploads/sites/3/2020/01/Screen-Shot-2020-01-31-at-8.18.41-AM.jpg?resize=1024,487",
+    "publishedAt": "2020-06-21T20:44:13Z",
+    "content": "Tesla currently produces Model Y with 5 seats, but the automaker has been promising a 7-seat configuration and Elon Musk has now updated the timeline.\r\nThe fact that it supports a 7-seat configuratio… [+2238 chars]"
+  }, {
+    "source": {
+      "id": null,
+      "name": "New York Times"
+    },
+    "author": "Nelson D. Schwartz",
+    "title": "New Hope for White-Collar Job Seekers? It Depends on the Job - The New York Times",
+    "description": "The hiring trough seems to have passed, but most opportunities are with the industries least buffeted by the coronavirus shutdown.",
+    "url": "https://www.nytimes.com/2020/06/21/business/economy/coronavirus-job-hunting.html",
+    "urlToImage": "https://static01.nyt.com/images/2020/06/18/business/00virus-jobhunt-01/00virus-jobhunt-01-facebookJumbo.jpg",
+    "publishedAt": "2020-06-21T19:24:16Z",
+    "content": "One exception to the positive trend has been hiring for sales positions, Mr. Gimbel said.\r\nThis concerns me, he explained. At moments of confidence, youd see companies hire 100 or 200 salespeople. We… [+1665 chars]"
+  }, {
+    "source": {
+      "id": "cnn",
+      "name": "CNN"
+    },
+    "author": "Jordan Valinsky, CNN Business",
+    "title": "These companies laid off thousands of employees this week - CNN",
+    "description": "The effects of the coronavirus are still battering the economy, despite small signs of a turnaround.",
+    "url": "https://www.cnn.com/2020/06/21/business/layoffs-company-june-coronavirus/index.html",
+    "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/200618080747-hsbc-branch-ny-0617-restricted-super-tease.jpg",
+    "publishedAt": "2020-06-21T19:15:41Z",
+    "content": null
+  }, {
+    "source": {
+      "id": null,
+      "name": "Honolulu Star-Advertiser"
+    },
+    "author": "Star-Advertiser staff",
+    "title": "Hawaii Kai water main break affects service from Kuliouou to Kalama Valley - Honolulu Star-Advertiser",
+    "description": "Board of Water Supply crews are repairing to a 24-inch water main break in Hawaii Kai today.",
+    "url": "https://www.staradvertiser.com/2020/06/21/breaking-news/hawaii-kai-water-main-break-affects-service-from-kuliouou-to-kalama-valley/",
+    "urlToImage": "https://www.staradvertiser.com/wp-content/uploads/2020/06/web1_BWS-truck-2.jpg",
+    "publishedAt": "2020-06-21T18:33:45Z",
+    "content": "Board of Water Supply crews are repairing to a 24-inch water main break in Hawaii Kai today.\r\nBWS said there are 103 customers without water service this afternoon. Two water wagons are available for… [+368 chars]"
+  }, {
+    "source": {
+      "id": "financial-times",
+      "name": "Financial Times"
+    },
+    "author": null,
+    "title": "Wirecard’s €1.9bn never entered Philippine financial system, bank governor says - Financial Times",
+    "description": "Fresh doubt cast on German group’s explanation for missing deposits",
+    "url": "https://www.ft.com/content/574ca70f-1d1e-4ade-b02b-9b846ea88d14",
+    "urlToImage": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F57b58d39-5fd3-462f-ab56-fe3de3ce02f1.jpg?source=next-opengraph&fit=scale-down&width=900",
+    "publishedAt": "2020-06-21T18:06:55Z",
+    "content": "Wirecard’s explanation for a €1.9bn hole in its balance sheet was further undercut on Sunday when the head of the Philippine central bank said the money never entered the country. \r\nThe German fintec… [+4396 chars]"
+  }, {
+    "source": {
+      "id": "reuters",
+      "name": "Reuters"
+    },
+    "author": "Madeline Chambers",
+    "title": "Changing of guard at top German court signals de-escalation for ECB - Reuters",
+    "description": "Changes to the composition of Germany's top court are likely to make it less confrontational towards the European Central Bank following a ruling about bond purchases that sent shockwaves around Europe, according to two sources close to the court.",
+    "url": "https://www.reuters.com/article/us-germany-court-ecb-analysis-idUSKBN23S0NS",
+    "urlToImage": "https://s3.reutersmedia.net/resources/r/?m=02&d=20200621&t=2&i=1522991003&w=1200&r=LYNXMPEG5K0J7",
+    "publishedAt": "2020-06-21T17:46:49Z",
+    "content": "BERLIN (Reuters) - Changes to the composition of Germany’s top court are likely to make it less confrontational towards the European Central Bank following a ruling about bond purchases that sent sho… [+5321 chars]"
+  }, {
+    "source": {
+      "id": null,
+      "name": "Forbes"
+    },
+    "author": "Laurence Kotlikoff",
+    "title": "Ask Larry: Can I Take Early Spousal Benefits And Still Get Full Social Security Retirement Benefits? - Forbes",
+    "description": "Today's column addresses questions about early spousal benefits before full retirement benefits, survivor benefits, which month to start benefits to avoid early filing reductions, unpaid Social Security and Medicare taxes and benefits on an ex's record after …",
+    "url": "https://www.forbes.com/sites/kotlikoff/2020/06/21/ask-larry-can-i-take-early-spousal-benefits-and-still-get-full-social-security-retirement-benefits/",
+    "urlToImage": "https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5edd1ef7718e880006f24ed0%2F0x0.jpg",
+    "publishedAt": "2020-06-21T17:39:10Z",
+    "content": "Economic Security Planning, Inc.\r\nToday's column addresses questions about early spousal benefits before full retirement benefits, survivor benefits, which month to start benefits to avoid early fili… [+6339 chars]"
+  }, {
+    "source": {
+      "id": null,
+      "name": "WFMZ Allentown"
+    },
+    "author": "",
+    "title": "Police make identity theft arrest in Northampton County - WFMZ Allentown",
+    "description": "An officer observed the suspect walking around and stretching in the parking lot of a Sam's Club in a lost manner.",
+    "url": "https://www.wfmz.com/news/area/lehighvalley/police-make-identity-theft-arrest-in-northampton-county/article_bf7c9b44-b3e4-11ea-b980-43768fcbc80f.html",
+    "urlToImage": "https://bloximages.newyork1.vip.townnews.com/wfmz.com/content/tncms/assets/v3/editorial/b/4c/b4c811b4-58b9-11ea-847f-ef754c9b7c9d/5e56a4ad489f6.image.jpg?resize=1120%2C630",
+    "publishedAt": "2020-06-21T17:29:00Z",
+    "content": "NORTHAMPTON COUNTY, Pa. -- Colonial Regional Police have arrested a man suspected of being involved in a identity theft scam, claiming to be another shopper at a local retail store. \r\nOn Saturday, Ju… [+878 chars]"
+  }, {
+    "source": {
+      "id": "cnn",
+      "name": "CNN"
+    },
+    "author": "Alicia Wallace, CNN Business",
+    "title": "Coffee drinkers are seeking out subscriptions and higher-end beans amid the pandemic - CNN",
+    "description": "When millions of Americans suddenly found themselves homebound amid the pandemic, they didn't skimp on their java. Increased at-home coffee consumption has translated into a relative boom for some smaller-scale coffee roasters.",
+    "url": "https://www.cnn.com/2020/06/21/business/people-signing-up-for-coffee-subscriptions/index.html",
+    "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/200618144214-bean-box-coffee-subscription-super-tease.jpg",
+    "publishedAt": "2020-06-21T17:24:56Z",
+    "content": null
+  }]
+}
