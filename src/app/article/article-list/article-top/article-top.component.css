@@ -1,0 +1,24 @@
+.topThreeArticleContainer {
+  margin-top: 10px;
+
+}
+
+.topThreeArticleContainer p {
+  text-transform: capitalize;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.topThreeArticleContainer img {
+  height: 40vh;
+  width: 100%;
+  object-fit: cover;
+
+}
+
+@media screen and (min-width:600px) {
+  .topThreeArticleContainer {
+    height: 50vh;
+
+  }
+}

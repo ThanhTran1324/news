@@ -1,0 +1,11 @@
+<div *ngIf='top2Article'>
+  <div fxLayout.gt-xs="row" fxLayout.xs="column" fxLayoutAlign="center start" fxLayoutGap="10px"
+    class="topThreeArticleContainer">
+    <div fxFlex='50%' *ngFor='let article of top2Article '>
+      <img [src]="article.urlToImage" [alt]="article.title" />
+      <p>
+        {{ article.title }}
+      </p>
+    </div>
+  </div>
+</div>

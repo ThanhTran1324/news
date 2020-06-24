@@ -1,8 +1,8 @@
-<div fxLayout.gt-xs="row layout-wrap" fxLayout.xs="column" fxLayoutGap="10px" fxLayoutAlign="space-evenly center">
-  <div fxFlex.gt-xs='30%' fxFlex.gt-lg='22%' fxFlex.xs='100%' class="myBigCard" *ngFor=' let article of articles '>
-    <img [src]=' article.urlToImage' [alt]='article.title' />
-    <p>
-      {{article.title}}
-    </p>
+<app-article-top ></app-article-top>
+
+<div fxLayout.gt-xs="row layout-wrap" fxLayout.xs="column" fxLayoutGap="10px" fxLayoutAlign="space-evenly start">
+  <div fxFlex.gt-xs="30%" fxFlex.gt-lg="22%" fxFlex.xs="100%" *ngFor="let article of articles ">
+    <app-article-card [article]='article'></app-article-card>
+
   </div>
 </div>

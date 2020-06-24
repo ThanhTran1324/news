@@ -13,6 +13,7 @@ import { Subscription } from 'rxjs';
 export class ArticleListComponent implements OnInit, OnDestroy {
   constructor(private store: Store<fromApp.AppState>) {}
   articles: Article[];
+
   articleSub: Subscription;
   ngOnInit(): void {
     this.store.dispatch(new ArticleActions.FetchArticleStart());
@@ -25,6 +26,7 @@ export class ArticleListComponent implements OnInit, OnDestroy {
       )
       .subscribe((articles) => {
         this.articles = articles;
+
         console.log(articles);
       });
   }

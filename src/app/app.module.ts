@@ -14,12 +14,16 @@ import { EffectsModule } from '@ngrx/effects';
 import { ArticleEffects } from './article/store/article.effects';
 import { HttpClientModule } from '@angular/common/http';
 import { Material } from './material.module';
+import { ArticleCardComponent } from './article/article-list/article-card/article-card.component';
+import { ArticleTopComponent } from './article/article-list/article-top/article-top.component';
 @NgModule({
   declarations: [
     AppComponent,
     ArticleComponent,
     NavbarComponent,
     ArticleListComponent,
+    ArticleCardComponent,
+    ArticleTopComponent,
   ],
   imports: [
     BrowserModule,
