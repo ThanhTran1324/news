@@ -1,6 +1,15 @@
-<div class="myCard">
+<mat-card class="example-card">
+  <img mat-card-image [src]="article.urlToImage" [alt]="article.title">
+  <mat-card-content>
+    <p>
+      {{ article.title }}
+    </p>
+  </mat-card-content>
+</mat-card>
+
+<!-- <div class="myCard">
   <img [src]="article.urlToImage" [alt]="article.title" />
   <p>
     {{ article.title }}
   </p>
-</div>
+</div> -->

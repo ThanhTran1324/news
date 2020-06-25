@@ -20,6 +20,9 @@ export class ArticleEffects {
   @Effect({ dispatch: false })
   articleFetch = this.actions$.pipe(
     ofType(ArticleActions.FETCH_ARTICLE_START),
+    //don't fetch when articles[].length!==0
+    //...
+
     switchMap(() => {
       // return this.http.get(
       //   'http://newsapi.org/v2/top-headlines?' +

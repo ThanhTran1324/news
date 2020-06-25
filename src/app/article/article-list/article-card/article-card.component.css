@@ -1,21 +1,53 @@
-.myCard {
+/* .myCard {
   min-height: 300px;
   min-width: 320px;
   font-size: large;
   text-align: left;
   padding: 5px;
+} */
+
+.example-card p {
+  text-align: justify;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-weight: bold;
+  font-size: 16px;
 }
 
-.myCard p {
-  text-transform: capitalize;
-  font-weight: bolder;
-
-}
-
-.myCard img {
+.example-card img {
 
   width: 100%;
   height: 30vh;
   object-fit: cover;
 
+}
+
+.example-card {
+  padding: 0;
+  font-size: large;
+
+  /* text-align: left; */
+  /* overflow: hidden; */
+}
+
+@media screen and (min-width:600px) {
+  .example-card {
+    margin-top: 5px;
+  }
+}
+
+mat-card-image {
+  margin: 0;
+
+}
+
+.mat-card-image:first-child {
+  margin: 0;
+}
+
+.mat-card-content {
+  height: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* justify-content: center; */
 }
