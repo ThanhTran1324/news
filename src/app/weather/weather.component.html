@@ -1,0 +1,23 @@
+<mat-spinner *ngIf="!weatherInfo"></mat-spinner>
+<div *ngIf="weatherInfo">
+  <!-- Start Weather Card -->
+
+  <div class="wrapper">
+    <div class="box"></div>
+    <div class="box_inner_shadow"></div>
+    <div class="box_inner"></div>
+    <div class="box_inner_tri_shadow"></div>
+    <div class="box_inner_tri"></div>
+    <div class="location"></div>
+    <div class="mountain1"></div>
+    <div class="mountain2"></div>
+    <div class="tri1"></div>
+    <div class="tri2"></div>
+    <div class="time">{{ weatherInfo.time }}</div>
+    <div class="date">{{ weatherInfo.date }}</div>
+    <div class="cloud"><img [src]="weatherInfo.icon" alt="weathericon" /></div>
+    <div class="temp">{{ weatherInfo.tempF + "&deg;C" }}</div>
+    <div class="cond">{{ weatherInfo.condition }}</div>
+    <div class="loc">{{ weatherInfo.location }}</div>
+  </div>
+</div>

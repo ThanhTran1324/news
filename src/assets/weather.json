@@ -1,0 +1,41 @@
+{
+  "location": {
+    "name": "Azalea Park",
+    "region": "Florida",
+    "country": "United States of America",
+    "lat": 28.53,
+    "lon": -81.3,
+    "tz_id": "America/New_York",
+    "localtime_epoch": 1593380104,
+    "localtime": "2020-06-28 17:35"
+  },
+  "current": {
+    "last_updated_epoch": 1593379813,
+    "last_updated": "2020-06-28 17:30",
+    "temp_c": 35,
+    "temp_f": 95,
+    "is_day": 1,
+    "condition": {
+      "text": "Sunny",
+      "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+      "code": 1000
+    },
+    "wind_mph": 8.1,
+    "wind_kph": 13,
+    "wind_degree": 170,
+    "wind_dir": "S",
+    "pressure_mb": 1016,
+    "pressure_in": 30.5,
+    "precip_mm": 0,
+    "precip_in": 0,
+    "humidity": 36,
+    "cloud": 0,
+    "feelslike_c": 36.9,
+    "feelslike_f": 98.3,
+    "vis_km": 16,
+    "vis_miles": 9,
+    "uv": 11,
+    "gust_mph": 9.2,
+    "gust_kph": 14.8
+  }
+}

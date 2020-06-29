@@ -15,11 +15,9 @@
 }
 
 .example-card img {
-
   width: 100%;
   height: 30vh;
   object-fit: cover;
-
 }
 
 .example-card {
@@ -30,7 +28,7 @@
   /* overflow: hidden; */
 }
 
-@media screen and (min-width:600px) {
+@media screen and (min-width: 600px) {
   .example-card {
     margin-top: 5px;
   }
@@ -38,7 +36,6 @@
 
 mat-card-image {
   margin: 0;
-
 }
 
 .mat-card-image:first-child {

@@ -1,1 +1,27 @@
-<mat-toolbar>News</mat-toolbar>
+<p>
+  <mat-toolbar color="primary" class="myNavBar">
+    <mat-toolbar-row fxLayout fxLayoutAlign='space-between center'>
+      <span>News</span>
+      <span class="example-spacer"></span>
+      <button (click)='toggleSecondBar()' mat-icon-button class="example-icon"
+        aria-label="Example icon-button with menu icon">
+        <mat-icon>menu</mat-icon>
+      </button>
+    </mat-toolbar-row>
+
+    <mat-toolbar-row *ngIf='showSecondBar' fxLayoutAlign='space-between start'>
+      <span>
+        Tools
+      </span>
+      <!-- <span class="example-spacer"></span> -->
+      <div>
+        <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+          <mat-icon>favorite</mat-icon>
+        </button>
+        <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+          <mat-icon>share</mat-icon>
+        </button>
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
+</p>

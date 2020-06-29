@@ -13,7 +13,7 @@ import { Subscription } from 'rxjs';
   styleUrls: ['./article-top.component.css'],
 })
 export class ArticleTopComponent implements OnInit, OnDestroy {
-  top2Article: Article[];
+  topArticle: Article;
   articleSub: Subscription;
   constructor(private store: Store<fromApp.AppState>) {}
 
@@ -27,9 +27,7 @@ export class ArticleTopComponent implements OnInit, OnDestroy {
         })
       )
       .subscribe((articles) => {
-        this.top2Article = articles.filter((artArray, index) => {
-          return index < 2;
-        });
+        this.topArticle = articles[0];
       });
   }
   ngOnDestroy() {
