@@ -6,7 +6,7 @@ import * as ArticleActions from '../../store/article.actions';
 import { Store } from '@ngrx/store';
 import { map, tap } from 'rxjs/operators';
 import { Subscription } from 'rxjs';
-
+import * as utilityFunction from '../../../utility/utility.convert';
 @Component({
   selector: 'app-article-top',
   templateUrl: './article-top.component.html',
@@ -15,6 +15,7 @@ import { Subscription } from 'rxjs';
 export class ArticleTopComponent implements OnInit, OnDestroy {
   topArticle: Article;
   articleSub: Subscription;
+
   constructor(private store: Store<fromApp.AppState>) {}
 
   ngOnInit(): void {
@@ -28,6 +29,7 @@ export class ArticleTopComponent implements OnInit, OnDestroy {
       )
       .subscribe((articles) => {
         this.topArticle = articles[0];
+
       });
   }
   ngOnDestroy() {
@@ -35,4 +37,5 @@ export class ArticleTopComponent implements OnInit, OnDestroy {
       this.articleSub.unsubscribe();
     }
   }
+
 }

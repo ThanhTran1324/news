@@ -48,3 +48,11 @@ mat-card-image {
   text-overflow: ellipsis;
   /* justify-content: center; */
 }
+
+.timeCardDisplay {
+  font-size: 14px;
+  font-weight: 500;
+  color: red;
+  display: flex;
+  padding-left: 5px;
+}

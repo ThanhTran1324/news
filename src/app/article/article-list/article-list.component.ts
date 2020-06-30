@@ -26,8 +26,6 @@ export class ArticleListComponent implements OnInit, OnDestroy {
       )
       .subscribe((articles) => {
         this.articles = articles;
-
-        console.log(articles);
       });
   }
   ngOnDestroy() {

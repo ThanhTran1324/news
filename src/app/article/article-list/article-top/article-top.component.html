@@ -1,13 +1,13 @@
-<div *ngIf='topArticle'>
+<div *ngIf="topArticle">
   <div fxLayout.gt-xs="row" fxLayout.xs="column" fxLayoutAlign="center start">
-    <div fxFlex='100%' fxFlex.gt-md='70%'>
+    <div fxFlex="99%" fxFlex.gt-md="70%">
       <mat-card class="example-card">
-        <img mat-card-image [src]="topArticle.urlToImage" [alt]="topArticle.title">
-        <mat-card-content>
-          <p>
-            {{ topArticle.title }}
-          </p>
-        </mat-card-content>
+        <img mat-card-image [src]="topArticle.urlToImage" [alt]="topArticle.title" />
+
+        <div fxFlex='100%' class="articleTopCardContainer" fxLayout='column'>
+          <p class="articleTopCardBreakingNews">BREAKING NEWS</p>
+          <p class='articleTopCardTitle'> {{ topArticle.title }}</p>
+        </div>
       </mat-card>
     </div>
 
@@ -17,6 +17,5 @@
         {{ article.title }}
       </p>
     </div> -->
-
   </div>
 </div>

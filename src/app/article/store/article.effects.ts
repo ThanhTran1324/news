@@ -8,7 +8,7 @@ import * as ArticleActions from './article.actions';
 import * as fromApp from '../../store/app.reducer';
 import { Article } from 'src/app/model/article.model';
 import { ArticleResponseData } from 'src/app/model/articleResponseData.model';
-
+import { timeSince } from '../../utility/utility.convert';
 @Injectable()
 export class ArticleEffects {
   constructor(
@@ -24,15 +24,27 @@ export class ArticleEffects {
     //...
 
     switchMap(() => {
-      // return this.http.get(
-      //   'http://newsapi.org/v2/top-headlines?' +
-      //     'country=us&' +
-      //     'apiKey=fb6036dd3aa44f6eaa9bcb9b7c690eb9'
-      // );
+      // return this.http
+      //   .get(
+      //     'http://newsapi.org/v2/top-headlines?' +
+      //       'country=us&' +
+      //       'apiKey=fb6036dd3aa44f6eaa9bcb9b7c690eb9'
+      //   )
+      //   .pipe(
       return this.http.get('assets/article.json').pipe(
         map((responseData: ArticleResponseData) => {
+          return responseData.articles;
+        }),
+        map((articles: Article[]) => {
+          const convertedArticles: Article[] = articles.map((article) => {
+            return {
+              ...article,
+              articleTimeDisplay: timeSince(article.publishedAt),
+            };
+          });
+          console.log(convertedArticles);
           return this.store.dispatch(
-            new ArticleActions.FetchArticleSuccess(responseData.articles)
+            new ArticleActions.FetchArticleSuccess(convertedArticles)
           );
         })
       );

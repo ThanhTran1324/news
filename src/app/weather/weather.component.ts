@@ -17,7 +17,7 @@ export class WeatherComponent implements OnInit {
     this.store.dispatch(new WeatherActions.FetchWeatherStart());
     this.store.select('weather').subscribe((weatherState) => {
       this.weatherInfo = weatherState;
-      console.log(this.weatherInfo);
+
     });
   }
 }

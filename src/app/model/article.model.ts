@@ -6,6 +6,7 @@ export class Article {
   urlToImage: string;
   publishedAt: Date;
   content: string;
+  articleTimeDisplay?: string;
 }
 
 export class LocationIQResponseDate {
