@@ -19,7 +19,6 @@ export class ArticleTopComponent implements OnInit, OnDestroy {
   constructor(private store: Store<fromApp.AppState>) {}
 
   ngOnInit(): void {
-    this.store.dispatch(new ArticleActions.FetchArticleStart());
     this.articleSub = this.store
       .select('article')
       .pipe(
@@ -29,7 +28,6 @@ export class ArticleTopComponent implements OnInit, OnDestroy {
       )
       .subscribe((articles) => {
         this.topArticle = articles[0];
-
       });
   }
   ngOnDestroy() {
@@ -37,5 +35,4 @@ export class ArticleTopComponent implements OnInit, OnDestroy {
       this.articleSub.unsubscribe();
     }
   }
-
 }

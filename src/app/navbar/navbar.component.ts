@@ -11,7 +11,7 @@ import { WeatherInfo } from '../model/WeatherInfo.model';
 export class NavbarComponent implements OnInit {
   constructor(private store: Store<fromApp.AppState>) {}
   showSecondBar = false;
-  weatherInfo: WeatherInfo;
+  weatherInfo: WeatherInfo ;
   ngOnInit(): void {
     this.store.select('weather').subscribe((weatherState) => {
       this.weatherInfo = weatherState;

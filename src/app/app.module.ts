@@ -19,6 +19,9 @@ import { ArticleCardComponent } from './article/article-list/article-card/articl
 import { ArticleTopComponent } from './article/article-list/article-top/article-top.component';
 import { WeatherComponent } from './weather/weather.component';
 import { WeatherEffects } from './weather/store/weather.effects';
+import { LocationEffects } from './location/store/locations.effects';
+import { ArticleViewComponent } from './article/article-view/article-view.component';
+import { HomepageComponent } from './homepage/homepage.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,6 +31,8 @@ import { WeatherEffects } from './weather/store/weather.effects';
     ArticleCardComponent,
     ArticleTopComponent,
     WeatherComponent,
+    ArticleViewComponent,
+    HomepageComponent,
   ],
   imports: [
     BrowserModule,
@@ -35,7 +40,7 @@ import { WeatherEffects } from './weather/store/weather.effects';
     BrowserAnimationsModule,
     HttpClientModule,
     StoreModule.forRoot(fromApp.appReducer),
-    EffectsModule.forRoot([ArticleEffects, WeatherEffects]),
+    EffectsModule.forRoot([ArticleEffects, WeatherEffects, LocationEffects]),
     Material,
     FlexLayoutModule,
     StoreDevtoolsModule.instrument(),

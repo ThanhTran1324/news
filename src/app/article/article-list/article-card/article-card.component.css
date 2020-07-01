@@ -12,6 +12,7 @@
   padding-right: 5px;
   font-weight: bold;
   font-size: 16px;
+
 }
 
 .example-card img {
@@ -23,9 +24,14 @@
 .example-card {
   padding: 0;
   font-size: large;
-
+  cursor: pointer;
   /* text-align: left; */
   /* overflow: hidden; */
+}
+
+.example-card:hover p:nth-child(2) {
+  text-decoration: underline;
+  color: rgb(4, 4, 136);
 }
 
 @media screen and (min-width: 600px) {

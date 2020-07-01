@@ -1,4 +1,4 @@
-<mat-card class="example-card">
+<mat-card class="example-card" [routerLink]="['/articleView',article.id]">
   <img mat-card-image [src]="article.urlToImage" [alt]="article.title">
   <mat-card-content>
     <div class="timeCardDisplay">{{article.articleTimeDisplay}}</div>

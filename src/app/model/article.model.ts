@@ -7,6 +7,7 @@ export class Article {
   publishedAt: Date;
   content: string;
   articleTimeDisplay?: string;
+  id: string;
 }
 
 export class LocationIQResponseDate {

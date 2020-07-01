@@ -11,13 +11,12 @@ import { WeatherInfo } from '../model/WeatherInfo.model';
 })
 export class WeatherComponent implements OnInit {
   weatherInfo: WeatherInfo;
+  locationSub;
   constructor(private store: Store<fromApp.AppState>) {}
 
   ngOnInit(): void {
-    this.store.dispatch(new WeatherActions.FetchWeatherStart());
-    this.store.select('weather').subscribe((weatherState) => {
-      this.weatherInfo = weatherState;
-
-    });
+   this.store.select('weather').subscribe(weatherState=>{
+     this.weatherInfo = weatherState;
+   })
   }
 }

@@ -16,7 +16,6 @@ export class ArticleListComponent implements OnInit, OnDestroy {
 
   articleSub: Subscription;
   ngOnInit(): void {
-    this.store.dispatch(new ArticleActions.FetchArticleStart());
     this.articleSub = this.store
       .select('article')
       .pipe(

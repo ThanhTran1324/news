@@ -9,6 +9,8 @@
   font-size: large;
 }
 
+
+
 @media screen and (min-width:600px) {
   .example-card {
     margin-top: 5px;
@@ -43,6 +45,12 @@ mat-card-image {
 .articleTopCardTitle {
   font-size: 25px;
   color: rgb(255, 255, 255);
+  cursor: pointer;
+
+}
+
+.articleTopCardTitle:hover {
+  text-decoration: underline;
 }
 
 .articleTopCardBreakingNews {

@@ -6,7 +6,7 @@
 
         <div fxFlex='100%' class="articleTopCardContainer" fxLayout='column'>
           <p class="articleTopCardBreakingNews">BREAKING NEWS</p>
-          <p class='articleTopCardTitle'> {{ topArticle.title }}</p>
+          <p [routerLink]="['articleView',topArticle.id]" class='articleTopCardTitle'> {{ topArticle.title }}</p>
         </div>
       </mat-card>
     </div>

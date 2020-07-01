@@ -1,5 +1,5 @@
-<mat-spinner *ngIf="!weatherInfo"></mat-spinner>
-<div *ngIf="weatherInfo">
+<mat-spinner *ngIf="weatherInfo.tempF===null"></mat-spinner>
+<div *ngIf="weatherInfo.tempF!==null">
   <!-- Start Weather Card -->
 
   <div class="wrapper">
@@ -13,10 +13,10 @@
     <div class="mountain2"></div>
     <div class="tri1"></div>
     <div class="tri2"></div>
-    <div class="time">{{ weatherInfo.time }}</div>
+    <div class="time">{{ weatherInfo.time }}</div> <!-- need fix time -->
     <div class="date">{{ weatherInfo.date }}</div>
     <div class="cloud"><img [src]="weatherInfo.icon" alt="weathericon" /></div>
-    <div class="temp">{{ weatherInfo.tempF + "&deg;C" }}</div>
+    <div class="temp">{{ weatherInfo.tempF + "&deg;F" }}</div>
     <div class="cond">{{ weatherInfo.condition }}</div>
     <div class="loc">{{ weatherInfo.location }}</div>
   </div>

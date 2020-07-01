@@ -1,0 +1,12 @@
+<div fxLayout.gt-sm='row' fxLayout.lt-sm='column' fxFlex='100%' fxLayoutAlign='center start' fxLayoutGap='10px'>
+  <div fxFlex='60%' *ngIf='article'>
+    <h1 class="articleViewTitle">{{article.title}}</h1>
+    <img class="topArticleViewImg" [src]="article.urlToImage" [alt]="article.title">
+    <p>{{'By:'+article.author}}<br />
+      {{'Publish At: '}}{{ article.publishedAt}}</p>
+    <p class="articleViewContent">{{article.content}}</p>
+  </div>
+  <div fxFlex='20%' class="articleViewTrendingNowTitle" *ngIf='trendingArticle'>Trending Now
+    <app-article-card [article]='trendingArticle'></app-article-card>
+  </div>
+</div>

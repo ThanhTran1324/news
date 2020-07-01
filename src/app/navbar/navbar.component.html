@@ -1,12 +1,12 @@
 <p>
   <mat-toolbar color="primary" class="myNavBar">
     <mat-toolbar-row fxLayout fxLayoutAlign='space-between center'>
-      <span>News</span>
+      <span routerLink='' class="myLink">News</span>
 
       <span class="example-spacer"></span>
       <div fxLayoutAlign='center center'>
-        <span>{{weatherInfo.tempF+"&deg;C"}}</span>
-        <img [src]="weatherInfo.icon" alt="weather icon">
+        <span *ngIf="weatherInfo.tempF!==null">{{weatherInfo.tempF+"&deg;F"}}</span>
+        <img *ngIf="weatherInfo.tempF!==null" [src]="weatherInfo.icon " alt="weather icon">
         <button (click)='toggleSecondBar()' mat-icon-button class="example-icon"
           aria-label="Example icon-button with menu icon">
           <mat-icon>menu</mat-icon>
