@@ -2,8 +2,8 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 import { Subscription } from 'rxjs';
 import * as fromApp from '../../store/app.reducer';
-import { Article } from 'src/app/model/article.model';
-import { exhaustMap, tap, map, switchMap } from 'rxjs/operators';
+import { Article } from '../../model/Article.model';
+import { map, switchMap } from 'rxjs/operators';
 import { Store } from '@ngrx/store';
 
 @Component({

@@ -1,5 +1,5 @@
 import { Action } from '@ngrx/store';
-import { Article } from '../../model/article.model';
+import { Article } from '../../model/Article.model';
 export const FETCH_ARTICLE_START = '[Article] Fetch Article Start';
 export const FETCH_ARTICLE_SUCCESS = '[Article] Fetch Article Success';
 

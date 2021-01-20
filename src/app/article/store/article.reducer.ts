@@ -1,5 +1,5 @@
 import * as ArticleActions from './article.actions';
-import { Article } from 'src/app/model/article.model';
+import { Article } from '../../model/Article.model';
 
 export interface State {
   articles: Article[];

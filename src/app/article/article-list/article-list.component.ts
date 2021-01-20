@@ -3,7 +3,7 @@ import * as fromApp from '../../store/app.reducer';
 import * as ArticleActions from '../store/article.actions';
 import { Store } from '@ngrx/store';
 import { map } from 'rxjs/operators';
-import { Article } from 'src/app/model/article.model';
+import { Article } from '../../model/Article.model';
 import { Subscription } from 'rxjs';
 @Component({
   selector: 'app-article-list',

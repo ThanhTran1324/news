@@ -1,5 +1,4 @@
 import { Action } from '@ngrx/store';
-import { IpDataResponse } from 'src/app/model/ipResponse.model';
 import { LocationResponseData } from 'src/app/model/LocationResponseData.model';
 
 export const FETCH_IP_START = '[Location] Fetch Ip Start';

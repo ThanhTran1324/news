@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, OnDestroy } from '@angular/core';
-import { Article } from 'src/app/model/article.model';
+import { Article } from '../../../model/Article.model';
 
 import * as fromApp from '../../../store/app.reducer';
 import * as ArticleActions from '../../store/article.actions';

@@ -2,14 +2,14 @@ import { Injectable } from '@angular/core';
 import { Effect, Actions, ofType } from '@ngrx/effects';
 import { Store } from '@ngrx/store';
 import { HttpClient } from '@angular/common/http';
-import { tap, map, exhaustMap, switchMap } from 'rxjs/operators';
+import { map, switchMap } from 'rxjs/operators';
 
 import * as ArticleActions from './article.actions';
 import * as fromApp from '../../store/app.reducer';
-import { Article } from 'src/app/model/article.model';
-import { ArticleResponseData } from 'src/app/model/articleResponseData.model';
+import { Article } from '../../model/Article.model';
+import { ArticleResponseData } from '../../model/ArticleResponseData.model';
 import { timeSince } from '../../utility/utility.convert';
-import {randomId} from '../../utility/randomId'
+import {randomId} from '../../utility/randomId';
 @Injectable()
 export class ArticleEffects {
   constructor(

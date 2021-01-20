@@ -7,7 +7,7 @@ import { map, tap, catchError, withLatestFrom } from 'rxjs/operators';
 import * as fromApp from '../../store/app.reducer';
 import * as LocationActions from './location.actions';
 import * as WeatherActions from '../../weather/store/weather.actions';
-import { IpDataResponse } from 'src/app/model/ipResponse.model';
+import { IpDataResponse } from '../../model/IpResponse.model';
 import { LocationResponseData } from 'src/app/model/LocationResponseData.model';
 @Injectable()
 export class LocationEffects {

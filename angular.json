@@ -123,5 +123,8 @@
       }
     }
   },
-  "defaultProject": "news"
+  "defaultProject": "news",
+  "cli": {
+    "analytics": "b01cce5d-e5c0-4174-8b28-bddd05bb12fd"
+  }
 }

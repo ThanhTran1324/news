@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Article } from 'src/app/model/article.model';
+import { Article } from '../../../model/Article.model';
 
 @Component({
   selector: 'app-article-card',
